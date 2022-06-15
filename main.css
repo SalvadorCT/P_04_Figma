@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block;
+}
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    max-width: 60%;
+    height: auto;
+    margin-top: 18px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    margin-right:2rem ;
+}
+nav ul li:hover{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 3px solid #00CF95;
+    transform: scale(1.06);
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header picture{
+    margin-bottom: 74px;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    gap: 20px;
+}
+.grid img:hover{
+    transform: scale(1.05);
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.photo{
+    display:grid;
+    grid-template-columns: 302px auto;
+}
+.extras{
+    width: 85px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.4rem;
+}
+.date h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+}
+.retrato{
+    width: 302px;
+    height: 302px;
+    box-shadow: 16px 16px 32px #c3c7c7, -16px -16px 32px #e7f0ef;
+    border-radius: 500px;
+    border: 10px solid #D1FFA2;
+    box-sizing: border-box;
+}
+.name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+}
+.date p{
+    border-left: 4.26px solid #80E7CA;
+    padding-left: 16.97px;
+    /* letter  */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+}
+.button-uno{
+    display:grid ;
+    place-content: center;
+    width: 162.87px;
+    height: 44px;
+    background: #6D0AD3;
+    /* letter  */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    color: #EDE2FA;
+}
+.button-uno:hover{
+    transform: scale(1.05);
+}
+.button-dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-dos img{
+    width: 21.29px;
+    height: 19.52px;
+    margin-right: 12.77px;
+}
+.button-dos img:hover{
+    transform: scale(1.08);
+}
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+    width: 429px;
+    margin-top: 30px;
+}
+.name{
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+    color: #262626;
+}
+.txtverde{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+    color: #00CF95;
+}
+.date h2{
+    font-family:'Poppins'
+}
+.vector{
+    width: 60px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70.95px;
+    margin-left: 50%;
+}
+.vector img{
+    width: 60px;
+    height: 37.05px;
+    margin-bottom: 7px;
+}
+.vector h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: #00CF95;
+    margin-left: 25%;
+}
+.portfolio{
+    margin-bottom: 102px;
+}
+.services{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.grid02{
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(2,1fr);
+}
+.aside{
+    width: 308px;
+    height: 218px;
+    background-color: #00CF95;
+    border: 4px solid #D1FFA2;
+    border-radius: 8px;
+}
+.aside:hover{
+    border: 4px solid #5A0CB0;
+    transform: scale(1.08);
+}
+.aside div img{
+    width: 58.67px;
+    height: 45.33px;
+}
+.aside div{
+    width: 58.67px;
+    height: 45.33px;
+    margin-top: 26.67px;
+    margin-left: 28.67px;
+}
+.dateservi{
+    margin-top:67px ;
+    margin-left:148.01px;
+    width: auto;
+    height: auto;
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    background: #D1FFA2;
+    border-radius: 8px 0px 0px 8px;
+}
+.dateservi:hover{
+    color: #FFFFFF;
+    background: #5A0CB0;
+}
+.blog{
+    width: 100%;
+    height: auto;
+    margin-top: 113px;
+}
+.card{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card02{
+    display: flex;
+}
+.card02 span h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    border-left: 4px solid #C4C4C4;
+    padding-left: 6px;
+}
+.card02 span p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+}
+.card02 span{
+    margin-right: 12px;
+}
+.card03 span h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    border-left: 4px solid #C4C4C4;
+    padding-left: 6px;
+}
+.card03 span p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+}
+.card03 span img{
+    margin-top: 20px;
+}
+.card04 p{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 26px;
+}
+.card04 h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    border-left: 4px solid #5A0CB0;
+    padding-left: 6px;
+}
+.card05{
+    display: flex;
+}
+.card05 span{
+    margin-left: 18px;
+}
+.card05 span h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    border-left: 4px solid #C4C4C4;
+    padding-left: 6px;
+}
+.card05 span p{
+    width: 126px;
+    height: 173px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+}
+.card06 span{
+    width: 306px;
+    height: 124px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.info{
+    width: 306px;
+    height: 50px;
+    margin-top: 33px;
+    display: flex;
+    background-color: yellow;
+    box-sizing: border-box;
+    border: 1px solid #C0C0C0;
+    border-radius: 8px;
+}
+.info input{
+    box-sizing: border-box;
+    border: 1px solid #C0C0C0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 15px;
+}
+.info h3{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 50px;
+    background: #6D0AD3;
+    border-radius: 0px 8px 8px 0px;
+}
+.info h3:hover{
+    transform: scale(1.03);
+}
+.contact{
+    margin-top: 113px;
+    margin-bottom: 146px;
+}
+.inf{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.inf01{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 636px;
+    gap: 20px;
+}
+.inf01 input{
+    width: 308px;
+    height: 57px;
+    border: 1px solid#00CF95;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.inf01 input:hover{
+    border: 1px solid #6D0AD3;
+}
+.inf01 select{
+    height: 57px;
+    border: 1px solid#00CF95;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.inf01 select:hover{
+    border: 1px solid #6D0AD3;
+}
+.box{
+    margin-top: 20px;
+    width: 654px;
+    height: 150px;
+    border: 1px solid #C0C0C0;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.box:hover{
+    border: 1px solid #6D0AD3;
+}
+.botonenv{
+    width: 144px;
+    height: 57px;
+    background: #6D0AD3;
+    border-radius: 8px;
+    color: #EDE2FA;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-left: 266px;
+    display: grid;
+    place-content: center;
+}
+.botonenv:hover{
+    transform: scale(1.05);
+    background: #8057a9;
+}
+.tsub{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #0098EF;
+    margin-bottom: 32px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 35px;
+}
+hr{
+    width: 100%;
+    border: 1px solid #00CF95;
+    background-color:  #00CF95;
+}
+.log{
+    display: flex;
+    justify-content: center;
+}
+.gracias{
+    width: 100%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    color: #00CF95;
+    text-align: center;
+}
+.tex{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 18px;
+}
+.tex h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+}
+.exter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+@media only screen and (max-width: 750px){
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.header picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.header nav ul li{
+    margin-right:1rem ;
+}
+.about{
+    display: grid;
+
+}
+.portfolio{
+    width: 100%;
+    height: auto;
+}
+.enlaces{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.button-uno{
+    margin-left: 10%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            224px,
+            0.5fr
+        ))
+}
+.grid img{
+    width: 224px;
+    height: 220px;
+}
+.photo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.retrato{
+    width: 250px;
+    height: 250px;
+    margin-bottom:1rem ;
+}
+.extras{
+    margin-left: initial;
+    margin-left: 35%;
+    margin-top: 1rem;
+}
+.grid02{
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            308px,
+            0.5fr
+        ))
+}
+.blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    justify-content: center;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            300px,
+            0.5fr
+        ))
+}
+.inf{
+    flex-direction: column;
+}
+.box{
+    width: 100%;
+    margin-left: initial;
+}
+.inf01 select{
+    padding-left: initial;
+    width: 325px;
+}
+.infha{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inf01{
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            308px,
+            0.5fr
+        ))
+}
+.botonenv{
+    margin-left: 20%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+nav ul li{
+    margin-right:1rem ;
+}
+}
